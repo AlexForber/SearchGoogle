@@ -1,0 +1,32 @@
+.results__main{
+    position: relative;
+    width: 690px;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    &-top{
+        display: flex;
+    }
+        
+
+    &-text{
+        color: #4d5156;
+        font-size: 16px;
+        line-height: 1.58;
+        
+    }
+
+    &-link{
+        display: inline-block;
+        font-size: 20px;
+        color: #1a0dab;
+        margin-bottom: 5px;
+    }
+
+    &-sublink{
+        display: inline-block;
+        color: #23933b;
+    }
+}

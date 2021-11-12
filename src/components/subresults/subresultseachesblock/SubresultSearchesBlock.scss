@@ -1,0 +1,18 @@
+.subresult__searches-block{
+    min-height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-right: 15px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+    
+}
+
+.subresult__search-image{
+    width: 72px;
+}
+

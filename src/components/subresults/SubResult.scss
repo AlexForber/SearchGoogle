@@ -1,0 +1,68 @@
+.subresult{
+    max-width: 369px;
+    margin-top: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    max-height: 900px;
+    margin-left: 50px;
+
+    &__top{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ebebeb;
+        padding: 10px;
+        height: 150px;
+    }
+
+    &__title{
+        font-size: 30px;
+    }
+
+    &__subtitle{
+        color: #70757a;
+    }
+
+    &__image{
+        width: 200px;
+    }
+
+    &__main{
+        padding: 15px;
+    }
+
+    &__text{
+        color: #4d5156;
+        font-size: 14px;
+        line-height: 1.58;
+
+        
+    }
+
+    &__list{
+        color: #4d5156;
+        
+
+        &-item{
+            margin-top: 7px;
+    
+            &:first-child{
+                margin-top: 13px;
+            }
+        }
+
+        &-modification{
+            color: #202124;
+            font-weight: bold;
+        }
+
+    }
+
+    
+
+    &__searches-wrapper{
+        display: flex;
+    }
+}
+
+
+@import './subresultseachesblock/SubresultSearchesBlock.scss';

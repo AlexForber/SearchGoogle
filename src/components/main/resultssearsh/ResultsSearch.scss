@@ -1,0 +1,21 @@
+.results__search{
+    max-height: 110px;
+    margin-bottom: 30px;
+
+    &-link{
+        display: inline-block;
+        font-size: 20px;
+        color: #1a0dab;
+        margin-bottom: 5px;
+    }
+
+    &-link-small{
+        display: block;
+        color: #23933b;
+        margin-bottom: 5px;
+    }
+
+    &-text{
+        line-height: 1.58;
+    }
+}

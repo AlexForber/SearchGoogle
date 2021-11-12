@@ -1,0 +1,28 @@
+.footer{
+    background: #f2f2f2;
+    min-height: 120px;
+    padding: 24px 0 12px 160px;
+    line-height: 40px;
+
+    &__top{
+        min-height: 40px;
+
+        &-link{
+            color: #3c4043;
+            font-weight: bold;
+        }
+
+        &-link-blue{
+            color: #1a73e8;
+        }
+    }
+
+    &__bottom{
+        min-height: 40px;
+
+        &-link{
+            padding-right: 27px;
+            color: #70757a;
+        }
+    }
+}
