@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SearchGoogle/static/css/main.2c58c3f3.chunk.css",
+    "main.js": "/SearchGoogle/static/js/main.65b2605a.chunk.js",
+    "main.js.map": "/SearchGoogle/static/js/main.65b2605a.chunk.js.map",
+    "runtime-main.js": "/SearchGoogle/static/js/runtime-main.99499bad.js",
+    "runtime-main.js.map": "/SearchGoogle/static/js/runtime-main.99499bad.js.map",
+    "static/js/2.93841d58.chunk.js": "/SearchGoogle/static/js/2.93841d58.chunk.js",
+    "static/js/2.93841d58.chunk.js.map": "/SearchGoogle/static/js/2.93841d58.chunk.js.map",
+    "static/js/3.93e7048c.chunk.js": "/SearchGoogle/static/js/3.93e7048c.chunk.js",
+    "static/js/3.93e7048c.chunk.js.map": "/SearchGoogle/static/js/3.93e7048c.chunk.js.map",
+    "index.html": "/SearchGoogle/index.html",
+    "static/css/main.2c58c3f3.chunk.css.map": "/SearchGoogle/static/css/main.2c58c3f3.chunk.css.map",
+    "static/js/2.93841d58.chunk.js.LICENSE.txt": "/SearchGoogle/static/js/2.93841d58.chunk.js.LICENSE.txt",
+    "static/media/less.d0fb438d.png": "/SearchGoogle/static/media/less.d0fb438d.png",
+    "static/media/subresultsass.fcf040d4.png": "/SearchGoogle/static/media/subresultsass.fcf040d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99499bad.js",
+    "static/js/2.93841d58.chunk.js",
+    "static/css/main.2c58c3f3.chunk.css",
+    "static/js/main.65b2605a.chunk.js"
+  ]
+}
