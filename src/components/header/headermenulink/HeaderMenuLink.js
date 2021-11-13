@@ -1,9 +1,11 @@
-import Hlogo from './../../../assets/images/header/image.png';
-
 function HeaderMenuLink(props) {
+
+    
+
     return (
         <>
-        <img className="header__menu-image" src={Hlogo}/>
+        {props.image && <img className="header__menu-image" src={props.image}/>}
+        
         <a className="header__menu-link">{props.text}</a>
         </>
         

@@ -33,6 +33,20 @@
         list-style: none;
         margin-left: 160px;
         padding: 0;
+
+
+    }
+
+    &__menu-item{
+        display: flex;
+        justify-self: center;
+        align-items:center;
+        margin-right: 25px;
+
+        &:last-child{
+            margin-right: 0;
+            margin-left: 160px
+        }
     }
 }
 
