@@ -1,7 +1,13 @@
 import SubresultSearchesBlock from "./subresultseachesblock/SubresultSearchesBlock";
 import SassLogo from "./../../assets/images/subresult/subresultsass.png";
+import Less from './../../assets/images/subresult/less.png';
+import Js from './../../assets/images/subresult/js.png';
+import H5 from './../../assets/images/subresult/html-5.png';
 
 function SubResult(){
+
+    const imagesArray = [{id:0 ,text:'Less' ,image:Less},{id:1 ,text:'JavaScript' ,image:Js},{id:2 ,text:'HTML5' ,image:H5},{id:3 ,text:'HTML' ,image:H5}]
+
     return(
         <div className="subresult">
             <div className="subresult__top">
@@ -28,10 +34,20 @@ Sass consists of two syntaxes. The original syntax, called "the indented syntax,
                         
                         <span className="subresult__searches-similar"></span>
                         <div className="subresult__searches-wrapper">
+                            {imagesArray.map(item =>{
+                                return(
+                                <SubresultSearchesBlock  key={item.id} image={item.image} text={item.text}/>
+                                )
+                            }
+
+                            )
+
+                            }
+                            
+                            {/* <SubresultSearchesBlock text="Less"/>
                             <SubresultSearchesBlock text="Less"/>
                             <SubresultSearchesBlock text="Less"/>
-                            <SubresultSearchesBlock text="Less"/>
-                            <SubresultSearchesBlock text="Less"/>
+                            <SubresultSearchesBlock text="Less"/> */}
                         </div>
                     
                 </div>
