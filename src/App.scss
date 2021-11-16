@@ -1,3 +1,5 @@
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -28,6 +30,12 @@ ul{
 @import './components/subresults/SubResult.scss';
 @import './components/queries/Queries.scss';
 @import './components/footer/Footer.scss';
+
+@import './components/mediastyle/mediaMaxWidth567px';
+@import './components/mediastyle/mediaMaxWidth767px';
+@import './components/mediastyle/mediaMaxWidth1023px';
+@import './components/mediastyle/mediaMaxWidth1279px';
+
 
 
 

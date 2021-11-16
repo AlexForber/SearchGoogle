@@ -1,0 +1,31 @@
+@media only screen and (min-width : 768px) and (max-width : 1023px){
+    .header__search{
+        width: 400px;
+    }
+
+    .header__top-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__menu-list{
+        margin-left: 30px;  
+    }
+
+    .header__menu-item:last-child{
+        margin-left: 10px;
+    }
+
+    .container{
+        margin-left: 30px;
+    }
+
+    .subresult{
+        display: none;
+    }
+
+    .footer{
+        padding-left: 30px;
+    }
+}
