@@ -33,8 +33,12 @@
         margin-left: 20px;
     }
 
+    .App__wrapper{
+        display: block;
+    }
+
     .results__main{
-        width: 500px;
+        width: 95%;
 
         &-img{
             width: 85px;
@@ -43,7 +47,7 @@
     }
 
     .results__search{
-        width: 500px;
+        width: 95%;
     }
 
     .subresult{
