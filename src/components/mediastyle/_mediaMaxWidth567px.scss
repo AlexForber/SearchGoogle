@@ -1,37 +1,7 @@
 @media only screen and (min-width : 320px) and (max-width : 567px){
-    .App__wrapper{
-        display: block;
-    }
-
     .subresult{
         display: none;
     }
-
-    .container{
-        margin-left: 15px;
-    }
-
-    .results__main{
-        width: 95%;
-
-        &-img{
-            display: none;
-        }
-
-        &-text{
-            font-size: 15px;
-        }
-
-        &-sublink{
-            font-size: 12px;
-        }
-    }
-
-    .results__search{
-        width: 95%;
-        max-height: 230px;
-    }
-
     .queries__wrapper{
         display: block;
     }

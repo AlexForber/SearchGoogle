@@ -2,6 +2,15 @@
     max-height: 180px;
     margin-bottom: 30px;
 
+    @include media(sm,max){
+        width: 95%;
+    }
+
+    @include media(xs,max){
+        width: 95%;
+        max-height: 230px;
+    }
+
     &-link{
         display: inline-block;
         font-size: 20px;
