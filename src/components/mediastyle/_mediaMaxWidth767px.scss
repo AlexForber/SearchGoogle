@@ -1,34 +1,4 @@
 @media only screen and (min-width : 568px) and (max-width : 767px){
-    .header__logo{
-        width: 80px;
-        margin-right: 10px;
-    }
-
-    .header__top-image{
-        width: 18px;
-    }
-
-    .header__top-link{
-        margin-left: 10px;
-    }
-
-
-    .header__search{
-        width: 350px;
-    }
-
-    .header__menu-list{
-        margin-left: 20px;  
-    }
-
-    .header__menu-item{
-        margin-right: 20px;
-
-        &:last-child{
-            margin-left: 0;
-        }
-    }
-
     .container{
         margin-left: 20px;
     }
