@@ -8,4 +8,14 @@
     text-align: center;
     padding-top: 15px;
     font-weight: bold;
+
+    @include media(sm,max){
+        width: 95%;
+    }
+
+
+    @include media(xs,max){
+        margin-top: 10px;
+        width: 95%;
+    }
 }

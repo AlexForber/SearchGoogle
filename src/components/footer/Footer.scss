@@ -4,16 +4,40 @@
     padding: 24px 0 12px 160px;
     line-height: 40px;
 
+    @include media(xl,max){
+        padding-left: 30px;
+    }
+
+    @include media(md,max){
+        padding-left: 30px;
+    }
+
+    @include media(sm,max){
+        padding-left: 20px;
+    }
+
+    @include media(xs,max){
+        padding: 15px;
+    }
+
     &__top{
         min-height: 40px;
 
         &-link{
             color: #3c4043;
             font-weight: bold;
+
+            @include media(xs,max){
+                font-size: 12px;
+            }
         }
 
         &-link-blue{
             color: #1a73e8;
+
+            @include media(xs,max){
+                font-size: 12px;
+            }
         }
     }
 
@@ -23,6 +47,10 @@
         &-link{
             padding-right: 27px;
             color: #70757a;
+
+            @include media(xs,max){
+                padding-right: 10px;
+            }
         }
     }
 }

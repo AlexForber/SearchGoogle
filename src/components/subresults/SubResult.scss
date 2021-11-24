@@ -6,6 +6,24 @@
     max-height: 900px;
     margin-left: 50px;
 
+    @include media(xl,max){
+        max-width: 310px;
+        margin-left: 0;
+        max-height: 600px;
+    }
+
+    @include media(md,max){
+        display: none;
+    }
+
+    @include media(sm,max){
+        display: none;
+    }
+
+    @include media(xs,max){
+        display: none;
+    }
+
     &__top{
         display: flex;
         align-items: center;
